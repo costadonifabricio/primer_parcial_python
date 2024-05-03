@@ -40,5 +40,5 @@ def tienda_ropas_accesorios():
     # Aqui se resta la cantidad de unidad vendidas al total disponible de cada producto 
     df_productos["cantidad_disponible"] = df_productos["cantidad_disponible"] - df_productos["Productos_Vendidos"]
     return df_productos
-# Se imprime el DataFrame
+# Se imprime los resultados
 print(tienda_ropas_accesorios())
